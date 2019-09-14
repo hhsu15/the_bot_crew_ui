@@ -1,0 +1,28 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t hhsu15/frontend -f Dockerfile.dev .
+
+script:
+  - docker run hhsu15/frontend npm run test -- --coverage
+
+# deploy service to AWS Elastic Beanstalk
+# providers are already known by Travis
+# find the region from your aws instance url
+# bucket name will be located in the S3
+# on branch master means only depoly when changes are pushed to master branch
+# go to IAM and create the API key
+# deploy:
+#   provider: elasticbeanstalk
+#   region: us-east-2
+#   app: "docker-react"
+#   env: "DockerReact-env"
+#   bucket_name: "elasticbeanstalk-us-east-2-591982972361"
+#   bucket_path: "docker-react"
+#   on:
+#     branch: master
+#   access_key_id: $AWS_ACCESS_KEY
+#   secret_access_key:
+#     secure: "$AWS_SECRET_KEY"

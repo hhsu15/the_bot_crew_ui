@@ -12,3 +12,9 @@ or use docker-compose (preferred)
 docker-compose up --build  # in case it's not working, force the build
 ```
 
+## Production
+Nginx is used, to build production run:
+```bash
+docker build -t hhsu15/the_bot_crew . # by default, use Dockerfile
+docker run -p 8080:80 hhsu15/the_bot_crew # map nginx default port 80 to local 8080
+```
