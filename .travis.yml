@@ -14,15 +14,16 @@ script:
 # bucket name will be located in the S3
 # on branch master means only depoly when changes are pushed to master branch
 # go to IAM and create the API key
-# deploy:
-#   provider: elasticbeanstalk
-#   region: us-east-2
-#   app: "docker-react"
-#   env: "DockerReact-env"
-#   bucket_name: "elasticbeanstalk-us-east-2-591982972361"
-#   bucket_path: "docker-react"
-#   on:
-#     branch: master
-#   access_key_id: $AWS_ACCESS_KEY
-#   secret_access_key:
-#     secure: "$AWS_SECRET_KEY"
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-2
+  app: "the_bot_crew"
+  env: "TheBotCrew-env"
+  bucket_name: "elasticbeanstalk-us-east-2-591982972361"
+  bucket_path: "the_bot_crew"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
