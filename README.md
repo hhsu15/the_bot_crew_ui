@@ -1,7 +1,7 @@
 # The Bot Crew
 This is the playground for **The Bot Crew** website: 
 
-See: [thebotcrew.com](thebotcrew.com)
+[Here is the website](https://thebotcrew.com)
 
 ## Local Development
 ### Run webserver using Docker
