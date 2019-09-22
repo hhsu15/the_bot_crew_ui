@@ -5,7 +5,7 @@ class Navi extends React.Component {
 	
     render() {
         const notDone =() => {alert("Sorry, still work in progress")}
-        const {onAboutClick} = this.props
+        const {onAboutClick, onContactUsClick} = this.props
     	return (
     		<nav className="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 			    <div className="container d-flex align-items-center">
@@ -19,7 +19,7 @@ class Navi extends React.Component {
 				        	<li className="nav-item active"><a href="index.html" className="nav-link">Home</a></li>
 				        	<li className="nav-item active"><a  href="#" onClick={onAboutClick} className="nav-link">About</a></li>
 				        	<li className="nav-item active"><a href="#" onClick={notDone} className="nav-link">Porjects</a></li>
-				          <li className="nav-item active"><a href="#" onClick={notDone} className="nav-link">Contact</a></li>
+				          <li className="nav-item active"><a href="#" onClick={onContactUsClick} className="nav-link">Contact</a></li>
 				        </ul>
 			        </div>
 			        

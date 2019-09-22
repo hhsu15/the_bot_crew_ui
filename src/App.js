@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './components/style.scss'
 import Header from './components/Header'
@@ -7,12 +6,15 @@ import Navi from './components/Navi'
 import Landing from './components/Landing'
 import Banner from './components/Banner'
 import About from './components/About'
+import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 
 const initialState = {
   showLanding: true,
-  showAbout: true,
-  showBanner: true
+  showAbout: false,
+  showBanner: true,
+  showProjects: false,
+  showContactUs: false
 }
 
 class App extends Component{
@@ -22,19 +24,34 @@ class App extends Component{
   }
 
   onAboutClick = () => {
+    this.setState({showAbout: true})
     this.setState({showLanding:false})
     this.setState({showBanner:false})
+    this.setState({showProjects:false})
+    this.setState({showContactUs:false})
+  }
+
+  onContactUsClick = () => {
+    this.setState({showAbout: false})
+    this.setState({showLanding:false})
+    this.setState({showBanner:false})
+    this.setState({showProjects:false})
+    this.setState({showContactUs:true})
   }
 
   render() {
     return (
       <div className="App">
         <Header />
-        <Navi onAboutClick={this.onAboutClick}/>
+        <Navi onAboutClick={this.onAboutClick}
+              onContactUsClick={this.onContactUsClick}/>
         <Landing showLanding={this.state.showLanding} 
-                 onAboutClick={this.onAboutClick}/>
+                 onAboutClick={this.onAboutClick}
+                 onContactUsClick={this.onContactUsClick}
+                 />
         <Banner showBanner={this.state.showBanner}/>
         <About showAbout={this.state.showAbout}/>
+        <ContactUs showContactUs={this.state.showContactUs}/>
         <Footer />
 
       </div>
