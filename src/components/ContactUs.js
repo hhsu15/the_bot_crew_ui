@@ -3,7 +3,7 @@ import {Animated} from "react-animated-css"
 
 const About = ( {showContactUs} ) => {
 	   var bg = require('./images/car1.jpg')
-       var bg2 = require('./images/bg_2.jpg')
+	   const onSendEmail = () => {alert('Nothing is going to happen yet lol')}
 	   if (showContactUs) {
 		return(
 			<div>
@@ -23,14 +23,14 @@ const About = ( {showContactUs} ) => {
 			        <div class="row d-flex mb-5 contact-info">
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
-			          		<h3 class="mb-4">Address</h3>
-				            <p>West Windsor, New Jersey 08550</p>
+			          		<h3 class="mb-4">Location</h3>
+				            <p>Princeton, New Jersey</p>
 				          </div>
 			          </div>
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Contact Number</h3>
-				            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+				            <p><a href="tel://1234567920">123456789</a></p>
 				          </div>
 			          </div>
 			          <div class="col-md-3 d-flex">
@@ -42,7 +42,7 @@ const About = ( {showContactUs} ) => {
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Website</h3>
-				            <p><a href="index.html">thebotcrew.com</a></p>
+				            <p><a href="https://thebotcrew.com">thebotcrew.com</a></p>
 				          </div>
 			          </div>
 			        </div>
@@ -52,7 +52,7 @@ const About = ( {showContactUs} ) => {
 					<div class="container">
 						<div class="row d-flex align-items-stretch no-gutters">
 							<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-								<form action="#">
+								<article action="#">
 					              <div class="form-group">
 					                <input type="text" class="form-control" placeholder="Your Name"/>
 					              </div>
@@ -66,9 +66,9 @@ const About = ( {showContactUs} ) => {
 					                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 					              </div>
 					              <div class="form-group">
-					                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5"/>
+					                <input type="submit" value="Send Message To Us" class="btn btn-primary py-3 px-5" onClick={onSendEmail}/>
 					              </div>
-					            </form>
+					            </article>
 							</div>
 						</div>
 					</div>

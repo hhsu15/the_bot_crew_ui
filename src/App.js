@@ -50,7 +50,9 @@ class App extends Component{
                  onContactUsClick={this.onContactUsClick}
                  />
         <Banner showBanner={this.state.showBanner}/>
-        <About showAbout={this.state.showAbout}/>
+        <About showAbout={this.state.showAbout}
+               onContactUsClick={this.onContactUsClick}
+               />
         <ContactUs showContactUs={this.state.showContactUs}/>
         <Footer />
 

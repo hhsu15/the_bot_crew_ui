@@ -4,9 +4,12 @@ class Footer extends React.Component {
         return (
         	<div class="row">
 	          <div class="col-md-12 text-center">
-	            <p>
-			  		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-			    </p>
+	            {
+	            	<p>
+	            		<a href="https://thebotcrew.com" target="_blank">We <i class="icon-heart" aria-hidden="true"></i> The Bot Crew</a>
+	            	</p>
+			    }
+
 		        </div>
 		    </div>
         )

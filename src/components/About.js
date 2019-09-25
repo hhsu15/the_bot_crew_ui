@@ -1,9 +1,9 @@
 import React from 'react'
 import {Animated} from "react-animated-css"
 
-const About = ( {showAbout} ) => {
+const About = ( {showAbout, onContactUsClick} ) => {
 	   var bg = require('./images/car1.jpg')
-       var bg2 = require('./images/bg_2.jpg')
+       
 	   if (showAbout) {
 		return(
 		  <div>
@@ -27,7 +27,7 @@ const About = ( {showAbout} ) => {
 	          	<h2 class="mb-4">Welcome to The Bot Crew!</h2>
 							<p>Something about the bot crew....</p>
 							<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-							<p><a href="#" class="btn btn-secondary px-4 py-3">Read More</a></p>
+							<p><a href="#" class="btn btn-secondary px-4 py-3" onClick={onContactUsClick}>Contact Us</a></p>
 						</div>
 					  </Animated>
 					</div>
@@ -118,8 +118,8 @@ const About = ( {showAbout} ) => {
 	                  	<span class="quote d-flex align-items-center justify-content-center">
 	                      <i class="icon-quote-left"></i>
 	                    </span>
-	                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                    <p class="name">Kyle Hsu</p>
+	                    <p>I love The Bot Crew because I get to build cool stuff!</p>
+	                    <p class="name">Kyle</p>
 	                    <span class="position">Kid Manager</span>
 	                  </div>
 	                </div>

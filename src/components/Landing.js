@@ -4,7 +4,7 @@ import {Animated} from "react-animated-css"
 class Landing extends React.Component {
     render() {
     	var bg = require('./images/IMG_7526.jpg')
-    	var bg2 = require('./images/bg_2.jpg')
+    	//var bg2 = require('./images/bg_2.jpg')
         const { onAboutClick, showLanding, onContactUsClick } = this.props
 
     	if (showLanding) {
