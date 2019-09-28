@@ -17,9 +17,9 @@ class Navi extends React.Component {
 			        <div className="collapse navbar-collapse" id="ftco-nav">
 				        <ul className="navbar-nav ml-auto">
 				        	<li className="nav-item active"><a href="" className="nav-link">Home</a></li>
-				        	<li className="nav-item active"><a  href="#" onClick={onAboutClick} className="nav-link">About</a></li>
+				        	<li className="nav-item active"><a  href="#about" onClick={onAboutClick} className="nav-link">About</a></li>
 				        	<li className="nav-item active"><a href="" onClick={notDone} className="nav-link">Porjects</a></li>
-				          <li className="nav-item active"><a href="#" onClick={onContactUsClick} className="nav-link">Contact</a></li>
+				          <li className="nav-item active"><a href="#contact" onClick={onContactUsClick} className="nav-link">Contact</a></li>
 				        </ul>
 			        </div>
 			        
