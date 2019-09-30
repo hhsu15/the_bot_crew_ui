@@ -6,7 +6,7 @@ class Footer extends React.Component {
 	          <div class="col-md-12 text-center">
 	            {
 	            	<p>
-	            		<a href="https://thebotcrew.com" target="_blank">We <i class="icon-heart" aria-hidden="true"></i> The Bot Crew</a>
+	            		<a href="https://thebotcrew.com" target="_blank">We <i class="icon-heart" aria-hidden="true"></i> The Bot Crew 2019</a>
 	            	</p>
 			    }
 
