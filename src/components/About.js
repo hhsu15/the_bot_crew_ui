@@ -4,6 +4,10 @@ import {Animated} from "react-animated-css"
 const About = ( {showAbout, onContactUsClick} ) => {
 	   var bg = require('./images/car1.jpg')
 	   var kyle_avitar = require('./images/IMG_7526.jpg')
+	   var arjun_avitar = require('./images/bot6.png')
+	   var evelyin_avitar = require('./images/bot6.png')
+	   var jai_avitar = require('./images/bot6.png')
+	   var jarvis_avitar = require('./images/bot6.png')
        
 	   if (showAbout) {
 		return(
@@ -144,6 +148,69 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	              
 	              <div class="item">
 	                <div class="testimony-wrap d-flex">
+	                  <div class="user-img mr-4" style={{backgroundImage: "url("+arjun_avitar+")"}}>
+	                  </div>
+	                  <div class="text ml-2 bg-light">
+	                  	<span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                    <p>This is a placeholder</p>
+	                    <p class="name">Arjun</p>
+	                    <span class="position">Lego Engineer</span>
+	                  </div>
+	                </div>  
+	              </div>
+                  <br/>
+	              <div class="item">
+	                <div class="testimony-wrap d-flex">
+	                  <div class="user-img mr-4" style={{backgroundImage: "url("+evelyin_avitar+")"}}>
+	                  </div>
+	                  <div class="text ml-2 bg-light">
+	                  	<span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                    <p>This is a placeholder</p>
+	                    <p class="name">Evelyin</p>
+	                    <span class="position">Lego Engineer</span>
+	                  </div>
+	                </div>  
+	              </div>
+
+	              <br/>
+	              <div class="item">
+	                <div class="testimony-wrap d-flex">
+	                  <div class="user-img mr-4" style={{backgroundImage: "url("+jai_avitar+")"}}>
+	                  </div>
+	                  <div class="text ml-2 bg-light">
+	                  	<span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                    <p>This is a placeholder</p>
+	                    <p class="name">Jai</p>
+	                    <span class="position">Lego Engineer</span>
+	                  </div>
+	                </div>  
+	              </div>
+
+	              <br/>
+	              <div class="item">
+	                <div class="testimony-wrap d-flex">
+	                  <div class="user-img mr-4" style={{backgroundImage: "url("+jarvis_avitar+")"}}>
+	                  </div>
+	                  <div class="text ml-2 bg-light">
+	                  	<span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                    <p>This is a placeholder</p>
+	                    <p class="name">Jarvis</p>
+	                    <span class="position">Lego Engineer</span>
+	                  </div>
+	                </div>  
+	              </div>
+
+	              <br/>
+	              <div class="item">
+	                <div class="testimony-wrap d-flex">
 	                  <div class="user-img mr-4" style={{backgroundImage: "url("+kyle_avitar+")"}}>
 	                  </div>
 	                  <div class="text ml-2 bg-light">
@@ -154,8 +221,9 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	                    <p class="name">Kyle</p>
 	                    <span class="position">Lego Engineer</span>
 	                  </div>
-	                </div>
+	                </div>  
 	              </div>
+
 	            </div>
 	          </div>
 	        </div>

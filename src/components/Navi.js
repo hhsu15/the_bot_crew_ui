@@ -4,7 +4,7 @@ import React from 'react'
 class Navi extends React.Component {
 	
     render() {
-        const notDone =() => {alert("Sorry, still work in progress")}
+        const notDone =() => {alert("...stay tuned, there will be!")}
         const {onAboutClick, onContactUsClick} = this.props
     	return (
     		<nav className="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">

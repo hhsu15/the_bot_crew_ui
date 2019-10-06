@@ -3,9 +3,10 @@ import {Animated} from "react-animated-css"
 
 const About = ( {showContactUs} ) => {
 	   var bg = require('./images/car1.jpg')
-	   const onSendEmail = () => {alert('Nothing is going to happen yet lol')}
+	   const onSendEmail = () => {alert('Sorry, working proress.. \nNothing is going to happen yet lol')}
 	   if (showContactUs) {
 		return(
+
 			<div>
 				<section class="hero-wrap hero-wrap-2" style={{backgroundImage: "url("+bg+")"}}>
 			      <div class="overlay"></div>
@@ -29,12 +30,6 @@ const About = ( {showContactUs} ) => {
 			          </div>
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
-			          		<h3 class="mb-4">Contact Number</h3>
-				            <p><a href="tel://1234567920">123456789</a></p>
-				          </div>
-			          </div>
-			          <div class="col-md-3 d-flex">
-			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Email Address</h3>
 				            <p><a href="mailto:jessicatung@thebotcrew.com">jessicatung@thebotcrew.com</a></p>
 				          </div>
@@ -43,6 +38,12 @@ const About = ( {showContactUs} ) => {
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Website</h3>
 				            <p><a href="https://thebotcrew.com">thebotcrew.com</a></p>
+				          </div>
+			          </div>
+			          <div class="col-md-3 d-flex">
+			          	<div class="bg-light align-self-stretch box p-4 text-center">
+			          		<h3 class="mb-4">Facebook</h3>
+				            <p><a href="https://thebotcrew.com">work in progress</a></p>
 				          </div>
 			          </div>
 			        </div>
