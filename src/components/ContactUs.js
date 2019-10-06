@@ -36,7 +36,7 @@ const About = ( {showContactUs} ) => {
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Email Address</h3>
-				            <p><a href="mailto:jessica@thebotcrew.com">jessica@thebotcrew.com</a></p>
+				            <p><a href="mailto:jessicatung@thebotcrew.com">jessicatung@thebotcrew.com</a></p>
 				          </div>
 			          </div>
 			          <div class="col-md-3 d-flex">

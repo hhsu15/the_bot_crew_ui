@@ -3,7 +3,7 @@ import {Animated} from "react-animated-css"
 
 const About = ( {showAbout, onContactUsClick} ) => {
 	   var bg = require('./images/car1.jpg')
-	   var kyle_avitar = require('./images/bot1.PNG')
+	   var kyle_avitar = require('./images/IMG_7526.jpg')
        
 	   if (showAbout) {
 		return(
@@ -152,7 +152,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	                    </span>
 	                    <p>I love The Bot Crew because I get to build cool stuff!</p>
 	                    <p class="name">Kyle</p>
-	                    <span class="position">Kid Manager</span>
+	                    <span class="position">Lego Engineer</span>
 	                  </div>
 	                </div>
 	              </div>
