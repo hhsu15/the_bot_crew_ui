@@ -3,6 +3,7 @@ import {Animated} from "react-animated-css"
 
 const About = ( {showAbout, onContactUsClick} ) => {
 	   var bg = require('./images/car1.jpg')
+	   var kyle_avitar = require('./images/bot1.PNG')
        
 	   if (showAbout) {
 		return(
@@ -20,14 +21,12 @@ const About = ( {showAbout, onContactUsClick} ) => {
 		    </section>
 			<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-5 order-md-last wrap-about py-5 bg-light">
+				
 					  <Animated animationInDelay="500" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-						<div class="text px-4">
+						<div class="text px-4 order-md-last wrap-about py-5 bg-light">
 	          				<h2 class="mb-4">Welcome to The Bot Crew!</h2>
 							<div class="justify-content-left align-items-left" align="left">
-								<p>If you have a kid who is a huge Lego fan, WELCOME! I am staring this blog to log FLL Jr learning experience and progress. Not only because I wanted to use this as a keepsake (kids grow so fast!), but also share the experience with other parents. Please join me on the exciting journey!</p>
-									
+								<p>If you have a kid who is a huge Lego fan, WELCOME! I am staring this blog to log FLL Jr learning experience and progress. Not only because I wanted to use this as a keepsake (kids grow so fast!), but also share the experience with other parents. Please join me on the exciting journey!</p>		
 								<p>I am a mom to a 6 years old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. We realized he might be talented in architecture/engineering, so we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
 								<p>About the same time, we attended an Innovation Fair held by school district. In there we met several FTC (FIRST Tech Challenge) and FRC (FIRST Robotics Competition) students and oh boy, you can’t imagine how good they were! They were smart, friendly, and most of all, the most passionate kids I’ve seen. I was so surprised to see at this young age, they already found their passion and could elaborate their ideas and share with the community. At age 15, I was just cramming textbooks and had no dreams…</p>
 								<p>My son stopped at their stand and wouldn’t leave. He sat and played with the set for about an hour. I wanted to thank the young lady who spent an hour with us, and shared with us about FLL Jr (FIRST Lego League Junior). I had to admit, I was SO CONFUSED with so many acronyms in the beginning. So here is a little summary:</p>
@@ -48,57 +47,87 @@ const About = ( {showAbout, onContactUsClick} ) => {
 					  </Animated>
 					</div>
 					
-					<div class="col-md-7 wrap-about py-5 pr-md-4">
 					<Animated animationInDelay="500" animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+					   <div class="wrap-about py-5 pr-md-4">
 	      				<h2 class="mb-4">What We Do</h2>
-						<p>We strive to make our activities fun and engaging.</p>
-						<div class="row mt-5">
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
-									<div class="text">
-										<h3>Safety First</h3>
-										<p>We make sure all the toolkits are age appropriate and we pay attentions to how we are using them. There is nothing more important to make sure our kids are safe while they explore the fun.</p>
+						<p>We strive to make our activities fun and engaging!</p>
+						<div class="">
+						{
+							<div>
+								<div class="col-lg-12">
+									<div class="services-2 d-flex">
+										<div class="icon mt-4 mr-6 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+										<div class="text  justify-content-center align-items-center">
+											<h3>Fall Session</h3>
+											<p>FLL Junior Project</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="services-2 d-flex">
+										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+										<div class="text">
+											<h3>Winter Session</h3>
+											<p>WeDo Advanced Project</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="services-2 d-flex">
+										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+										<div class="text">
+											<h3>Spring Session</h3>
+											<p>WRO Project</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="services-2 d-flex">
+										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-security"></span></div>
+										<div class="text">
+											<h3>Summer Session</h3>
+											<p>TBD</p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
-									<div class="text">
-										<h3>STEAM Classes</h3>
-										<p>The buzz word STEAM..it is what you think they are.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
-									<div class="text">
-										<h3>Certified Teachers</h3>
-										<p>Will get certified</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
+							// <div class="col-lg-6">
+							// 	<div class="services-2 d-flex">
+							// 		<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-reading"></span></div>
+							// 		<div class="text">
+							// 			<h3>STEAM Classes</h3>
+							// 			<p>The buzz word STEAM..it is what you think they are.</p>
+							// 		</div>
+							// 	</div>
+							// </div>
+							// <div class="col-lg-6">
+							// 	<div class="services-2 d-flex">
+							// 		<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-diploma"></span></div>
+							// 		<div class="text">
+							// 			<h3>Certified Teachers</h3>
+							// 			<p>Will get certified</p>
+							// 		</div>
+							// 	</div>
+							// </div>
+							// <div class="col-lg-6">
 			
-							</div>
-							<div class="col-lg-6">
-								<div class="services-2 d-flex">
-									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
-									<div class="text">
-										<h3>Creative Lessons</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-							</div>
+							// </div>
+							// <div class="col-lg-6">
+							// 	<div class="services-2 d-flex">
+							// 		<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-jigsaw"></span></div>
+							// 		<div class="text">
+							// 			<h3>Creative Lessons</h3>
+							// 			<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+							// 		</div>
+							// 	</div>
+							// </div>
+							// <div class="col-lg-6">
+							// </div>
+						}
+						</div>
 						</div>
 					  </Animated>
-					</div>
-				</div>
-			</div>
+		
 		</section>
 		<section class="ftco-section testimony-section bg-light">
 	      <div class="container">
@@ -106,7 +135,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	          <div class="col-md-8 text-center heading-section">
 	          	<span class="subheading">Testimonial</span>
 	            <h2 class="mb-4"><span>What Our Team Members</span> Say About Us</h2>
-	            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+	          
 	          </div>
 	        </div>
 	        <div class="row  justify-content-center">
@@ -115,7 +144,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	              
 	              <div class="item">
 	                <div class="testimony-wrap d-flex">
-	                  <div class="user-img mr-4" style={{backgroundImage: "url("+bg+")"}}>
+	                  <div class="user-img mr-4" style={{backgroundImage: "url("+kyle_avitar+")"}}>
 	                  </div>
 	                  <div class="text ml-2 bg-light">
 	                  	<span class="quote d-flex align-items-center justify-content-center">

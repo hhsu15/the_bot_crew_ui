@@ -15,8 +15,8 @@ class Banner extends React.Component {
 	            		<span class="flaticon-teacher"></span>
 	              </div>
 	              <div class="media-body p-2 mt-3">
-	                <h3 class="heading">Certified Teachers</h3>
-	                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+	                <h3 class="heading">Friendly Parents</h3>
+	                <p>We have fun together learning and growing with our kids! Parents play a key role at The Bot Crew where we believe in developing the network with all ages!</p>
 	              </div>
 	            </div>      
 	          </div>
@@ -26,8 +26,8 @@ class Banner extends React.Component {
 	            		<span class="flaticon-reading"></span>
 	              </div>
 	              <div class="media-body p-2 mt-3">
-	                <h3 class="heading">Real Education</h3>
-	                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+	                <h3 class="heading">Education &amp; Inspiration</h3>
+	                <p>The projects are fun and educational. We inspire each other throughout the process!</p>
 	              </div>
 	            </div>    
 	          </div>
@@ -38,7 +38,7 @@ class Banner extends React.Component {
 	              </div>
 	              <div class="media-body p-2 mt-3">
 	                <h3 class="heading">Books &amp; Tools</h3>
-	                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+	                <p>You need the right tools to do the right job. Though we are certainly not limited to the materials we are given, we make sure the building blocks are available to get started!</p>
 	              </div>
 	            </div>      
 	          </div>
@@ -48,8 +48,8 @@ class Banner extends React.Component {
 	            		<span class="flaticon-diploma"></span>
 	              </div>
 	              <div class="media-body p-2 mt-3">
-	                <h3 class="heading">Certification</h3>
-	                <p>Throughout the course, we celebrate each milesstone and acknoledge everyone's hard work. We will be proud of what we have learned and achived!</p>
+	                <h3 class="heading">Achivement</h3>
+	                <p>Throughout the course, we celebrate each milesstone and acknoledge everyone's hard work. We are proud of what we learn and achive!</p>
 	              </div>
 	            </div>      
 	          </div>
