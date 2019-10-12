@@ -30,9 +30,17 @@ const About = ( {showAbout, onContactUsClick} ) => {
 						<div class="text px-4 order-md-last wrap-about py-5 bg-light">
 	          				<h2 class="mb-4">Welcome to The Bot Crew!</h2>
 							<div class="justify-content-left align-items-left" align="left">
-								<p>If you have a kid who is a huge Lego fan, WELCOME! I am staring this blog to log FLL Jr learning experience and progress. Not only because I wanted to use this as a keepsake (kids grow so fast!), but also share the experience with other parents. Please join me on the exciting journey!</p>		
-								<p>I am a mom to a 6 years old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. We realized he might be talented in architecture/engineering, so we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
-								<p>About the same time, we attended an Innovation Fair held by school district. In there we met several FTC (FIRST Tech Challenge) and FRC (FIRST Robotics Competition) students and oh boy, you can’t imagine how good they were! They were smart, friendly, and most of all, the most passionate kids I’ve seen. I was so surprised to see at this young age, they already found their passion and could elaborate their ideas and share with the community. At age 15, I was just cramming textbooks and had no dreams…</p>
+								 
+								<p >We are The Bot Crew, a rookie FIRST Lego League Junior team that is made of first garde students. 
+                                   The Bot Crew means we work together as boat crew, except we are working with bots! We are based out of West Windsor, New Jersey.</p>
+                                
+                                <p>From Ms. Jess:</p>
+                                <p>If your children are huge Lego fans, WELCOME!</p>
+                                <p>I am staring this blog to document FLL Jr learning experience and progress. 
+                                Not only because I wanted to use this as a keepsake (kids grow so fast!), but also share the experience with other parents. Please join me on the exciting journey!</p>		
+								
+								<p>I am a mom to a 6 years old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. So then we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
+								<p>About the same time, we attended an Innovation Fair held by school district. In there we met several middle and high school students and oh boy, they were so smart, friendly, and most of all, the most passionate kids I’ve seen. I was so surprised to see at this young age, they already found their passion and could elaborate their ideas and share with the community. At age 15, I was just cramming textbooks and had no dreams…</p>
 								<p>My son stopped at their stand and wouldn’t leave. He sat and played with the set for about an hour. I wanted to thank the young lady who spent an hour with us, and shared with us about FLL Jr (FIRST Lego League Junior). I had to admit, I was SO CONFUSED with so many acronyms in the beginning. So here is a little summary:</p>
 									<ul class="align-items-left">
 										<li>FLL Jr (FIRST Lego League Junior): Grades K-4</li>
@@ -40,11 +48,11 @@ const About = ( {showAbout, onContactUsClick} ) => {
 										<li>FTC (FIRST Tech Challenge): Grades 7–12</li>
 										<li>FRC (FIRST Robotics Competition): Grades 9–12</li>
 									</ul>
-									<p>What is FIRST? Here’s the introduction from official website:</p>
-									<p>FIRST (For Inspiration and Recognition of Science and Technology) was founded in 1989 to inspire young people’s interest and participation in science and technology. Based in Manchester, NH, the 501(c)(3) not-for-profit public charity designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge, and life skills.</p>
-									<p>FIRST is More Than Robots. FIRST participation is proven to encourage students to pursue education and careers in STEM-related fields, inspire them to become leaders and innovators, and enhance their 21 st century work-life skills.</p>
+									<p>What is FIRST?</p>
+									<p>FIRST (For Inspiration and Recognition of Science and Technology), a not-for-profit public charity, was founded in 1989 to inspire young people’s interest and participation in science and technology.</p>
+									
 									<p>FIRST’s website is resourceful, but to be honest, it’s overwhelming for me in the beginning. After Innovation Fair, I spent quite a lot of time researching, attending school district events, getting no response from school district program leaders, keep attending events in other towns, talking to new people, and finally got some ideas.</p>
-									<p>I’m sure that are other parents/kids also interested in STEM activities but don’t know where to start. I thought about throwing my son to Code Ninjas or STEAM Works Studio, but the charge was unbelievably high and my son is pretty shy in a new environment. Considering the cost and boosting his confidence, I decided to start my own FLL Jr team with close friends. It will be a great learning experience, and what’s more fun than growing with your kids?</p>
+									<p>I’m sure that are other parents/kids also interested in STEM activities but don’t know where to start. I thought about throwing my son to Code Ninjas or STEAM Works Studio, but the charge was unbelievably high and my son is pretty shy in a new environment. Considering the cost and boosting his confidence, I decided to start our own FLL Jr team with close friends. It will be a great learning experience, and what’s more fun than growing with your kids?</p>
 							</div>
 							<p><a href="#" class="btn btn-secondary px-4 py-3" onClick={onContactUsClick}>Contact Us</a></p>
 						</div>

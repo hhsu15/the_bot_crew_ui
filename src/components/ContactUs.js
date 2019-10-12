@@ -3,7 +3,7 @@ import {Animated} from "react-animated-css"
 
 const About = ( {showContactUs} ) => {
 	   var bg = require('./images/car1.jpg')
-	   const onSendEmail = () => {alert('Sorry, working proress.. \nNothing is going to happen yet lol')}
+	   const onSendEmail = () => {alert('Sorry, work in proress.. \nNothing is going to happen yet lol')}
 	   if (showContactUs) {
 		return(
 
