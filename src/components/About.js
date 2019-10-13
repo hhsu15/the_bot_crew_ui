@@ -188,7 +188,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	                      <i class="icon-quote-left"></i>
 	                    </span>
 	                    <p>This is a placeholder</p>
-	                    <p class="name">Evelyin</p>
+	                    <p class="name">Evelyn</p>
 	                    <span class="position">Lego Engineer</span>
 	                  </div>
 	                </div>  
