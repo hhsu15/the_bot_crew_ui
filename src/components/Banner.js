@@ -27,7 +27,7 @@ class Banner extends React.Component {
 	              </div>
 	              <div class="media-body p-2 mt-3">
 	                <h3 class="heading">Education &amp; Inspiration</h3>
-	                <p>The projects are fun and educational. We are inspired by each other in every way!</p>
+	                <p>The projects are fun and educational. Lego is just a start! We are inspired by each other in every way!</p>
 	              </div>
 	            </div>    
 	          </div>

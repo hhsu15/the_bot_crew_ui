@@ -25,13 +25,13 @@ const About = ( {showContactUs} ) => {
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Location</h3>
-				            <p>Princeton, New Jersey</p>
+				            <p>West Windsor, New Jersey</p>
 				          </div>
 			          </div>
 			          <div class="col-md-3 d-flex">
 			          	<div class="bg-light align-self-stretch box p-4 text-center">
 			          		<h3 class="mb-4">Email Address</h3>
-				            <p><a href="mailto:jessicatung@thebotcrew.com">jessicatung@thebotcrew.com</a></p>
+				            <p><a href="mailto:jessicatung@thebotcrew.com">wearethebotcrew@gmail.com</a></p>
 				          </div>
 			          </div>
 			          <div class="col-md-3 d-flex">

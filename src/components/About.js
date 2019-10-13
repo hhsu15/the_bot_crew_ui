@@ -33,12 +33,10 @@ const About = ( {showAbout, onContactUsClick} ) => {
 								 
 								<p >We are The Bot Crew, a rookie FIRST Lego League Junior team that is made of first garde students. 
                                    The Bot Crew means we work together as boat crew, except we are working with bots! We are based out of West Windsor, New Jersey.</p>
-                                
-                                <p>From Ms. Jess:</p>
+
+                                <h4 class="mb-4">From Ms. Jess:</h4>
                                 <p>If your children are huge Lego fans, WELCOME!</p>
-                                <p>I am staring this blog to document FLL Jr learning experience and progress. 
-                                Not only because I wanted to use this as a keepsake (kids grow so fast!), but also share the experience with other parents. Please join me on the exciting journey!</p>		
-								
+                       
 								<p>I am a mom to a 6 years old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. So then we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
 								<p>About the same time, we attended an Innovation Fair held by school district. In there we met several middle and high school students and oh boy, they were so smart, friendly, and most of all, the most passionate kids I’ve seen. I was so surprised to see at this young age, they already found their passion and could elaborate their ideas and share with the community. At age 15, I was just cramming textbooks and had no dreams…</p>
 								<p>My son stopped at their stand and wouldn’t leave. He sat and played with the set for about an hour. I wanted to thank the young lady who spent an hour with us, and shared with us about FLL Jr (FIRST Lego League Junior). I had to admit, I was SO CONFUSED with so many acronyms in the beginning. So here is a little summary:</p>
@@ -53,6 +51,18 @@ const About = ( {showAbout, onContactUsClick} ) => {
 									
 									<p>FIRST’s website is resourceful, but to be honest, it’s overwhelming for me in the beginning. After Innovation Fair, I spent quite a lot of time researching, attending school district events, getting no response from school district program leaders, keep attending events in other towns, talking to new people, and finally got some ideas.</p>
 									<p>I’m sure that are other parents/kids also interested in STEM activities but don’t know where to start. I thought about throwing my son to Code Ninjas or STEAM Works Studio, but the charge was unbelievably high and my son is pretty shy in a new environment. Considering the cost and boosting his confidence, I decided to start our own FLL Jr team with close friends. It will be a great learning experience, and what’s more fun than growing with your kids?</p>
+							     
+							    <h4 class="mb-4">From Ms. Priyanka:</h4>
+                                <p>This is placeholder</p>
+
+                                <h4 class="mb-4">From Ms. Shirley:</h4>
+                                <p>This is placeholder</p>
+
+                                <h4 class="mb-4">From Ms. Shweta:</h4>
+                                <p>This is placeholder</p>
+
+                                <h4 class="mb-4">From Ms. Vanessa:</h4>
+                                <p>This is placeholder</p>
 							</div>
 							<p><a href="#" class="btn btn-secondary px-4 py-3" onClick={onContactUsClick}>Contact Us</a></p>
 						</div>
