@@ -18,7 +18,7 @@ class Navi extends React.Component {
 				        <ul className="navbar-nav ml-auto">
 				        	<li className="nav-item active"><a href="" className="nav-link">Home</a></li>
 				        	<li className="nav-item active"><a  href="#about" onClick={onAboutClick} className="nav-link">About</a></li>
-				        	<li className="nav-item active"><a href="" onClick={notDone} className="nav-link">Porjects</a></li>
+				        	<li className="nav-item active"><a href="" onClick={notDone} className="nav-link">Projects</a></li>
 				          <li className="nav-item active"><a href="#contact" onClick={onContactUsClick} className="nav-link">Contact</a></li>
 				        </ul>
 			        </div>
