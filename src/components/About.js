@@ -2,7 +2,7 @@ import React from 'react'
 import {Animated} from "react-animated-css"
 
 const About = ( {showAbout, onContactUsClick} ) => {
-	   var bg = require('./images/car1.jpg')
+	   var bg = require('./images/bg3.JPG')
 	   var kyle_avitar = require('./images/IMG_7526.jpg')
 	   var arjun_avitar = require('./images/bot7.png')
 	   var evelyin_avitar = require('./images/bot7.png')
