@@ -37,7 +37,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
                                 <h4 class="mb-4">From Ms. Jess:</h4>
                                 <p>If your children are huge Lego fans, WELCOME!</p>
                        
-								<p>I am a mom to a 6 years old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. So then we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
+								<p>I am a mom to a 6-year-old boy. He started MegaBlocks since age 1, then moved to Duplos at 2, and started regular size at 4. On his 6 years old birthday, he completed the Voltron set all by himself in 8 hours. So then we bought a Lego engine to see if he can assemble Lego parts from different collections and create his own set. He was having so much fun and wouldn’t stop! We knew we had to up the game.</p>
 								<p>About the same time, we attended an Innovation Fair held by school district. In there we met several middle and high school students and oh boy, they were so smart, friendly, and most of all, the most passionate kids I’ve seen. I was so surprised to see at this young age, they already found their passion and could elaborate their ideas and share with the community. At age 15, I was just cramming textbooks and had no dreams…</p>
 								<p>My son stopped at their stand and wouldn’t leave. He sat and played with the set for about an hour. I wanted to thank the young lady who spent an hour with us, and shared with us about FLL Jr (FIRST Lego League Junior). I had to admit, I was SO CONFUSED with so many acronyms in the beginning. So here is a little summary:</p>
 									<ul class="align-items-left">
@@ -56,7 +56,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
                                 <p>This is placeholder</p>
 
                                 <h4 class="mb-4">From Ms. Shirley:</h4>
-                                <p>This is placeholder</p>
+                                <p>Evelyn's journey with Lego started when she got a Cinderella kit for her 2nd birthday. She’s now a first grader and loves working on Lego projects with her friends. She is drawn to Lego projects that make people’s lives easier - the JLL Jr accessibility assignments were a real treat for her.</p>
 
                                 <h4 class="mb-4">From Ms. Shweta:</h4>
                                 <p>This is placeholder</p>
@@ -172,7 +172,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	                  	<span class="quote d-flex align-items-center justify-content-center">
 	                      <i class="icon-quote-left"></i>
 	                    </span>
-	                    <p>This is a placeholder</p>
+	                    <p>I like making robots and I love to build.</p>
 	                    <p class="name">Arjun</p>
 	                    <span class="position">Lego Engineer</span>
 	                  </div>
@@ -187,7 +187,7 @@ const About = ( {showAbout, onContactUsClick} ) => {
 	                  	<span class="quote d-flex align-items-center justify-content-center">
 	                      <i class="icon-quote-left"></i>
 	                    </span>
-	                    <p>This is a placeholder</p>
+	                    <p>I love to engineer. I also love magic and fairies.</p>
 	                    <p class="name">Evelyn</p>
 	                    <span class="position">Lego Engineer</span>
 	                  </div>
